@@ -20,3 +20,5 @@ apt-get update
 # Install the Collabora packages
 apt-get -y install loolwsd code-brand
 
+# Install seccomp
+apt-get install seccomp
