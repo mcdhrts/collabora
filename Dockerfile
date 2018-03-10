@@ -10,7 +10,7 @@ ENV LC_CTYPE en_US.UTF-8
 ADD container-files /
 RUN bash /install-libreoffice.sh
 RUN chmod u+x /config/bootstrap.sh
-ADD ./elasticsearch.yml ${ES_PATH_CONF}/elasticsearch.yml
+# ADD ./elasticsearch.yml ${ES_PATH_CONF}/elasticsearch.yml
 
 EXPOSE 9980
 
